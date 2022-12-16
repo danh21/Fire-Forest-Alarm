@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Forest Alarm</title>
+    <link rel="icon" type="image/x-icon" href="./image/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <p><a href="./home.html" class="circle"><i class="fa-solid fa-house"></i></a></p>
+        <a href="./home.html" class="head">HOME</a>
+        <a href="./forest.html" class="head">ABOUT FOREST</a>
+        <a href="" class="head">PRODUCTS</a>
+        <a href="" class="head">SERVICES</a>
+        <a href="" class="head">CONTACTS</a>
+        <p>
+          <a class="head btn" id="login">
+            <i class="fa-solid fa-user" style="margin-right: 15px;"></i>
+            LOGIN
+          </a>
+        </p>
+    </div>
+    
+    <div class="container">
+        <div class="area" id="area1">
+            <h2>Location 1</h2>
+            <div class="line">
+                <h3>Status: </h3>
+                <h3 class="value" id="stt1"></h3>
+            </div>
+            <div class="line">
+                <h3>Last modified: </h3>
+                <h3 class="date" id="date1"></h3>
+            </div>
+        </div>
+                
+        <div class="area" id="area2">
+            <h2>Location 2</h2>
+            <div class="line">
+                <h3>Status: </h3>
+                <h3 class="value" id="stt2"></h3>
+            </div>
+            <div class="line">
+                <h3>Last modified: </h3>
+                <h3 class="date" id="date2"></h3>
+            </div>
+        </div>
+
+        <div class="area" id="area3">
+            <h2>Location 3</h2>
+            <div class="line">
+                <h3>Status: </h3>
+                <h3 class="value" id="stt3"></h3>
+            </div>
+            <div class="line">
+                <h3>Last modified: </h3>
+                <h3 class="date" id="date3"></h3>
+            </div>
+        </div> 
+
+        <div class="area" id="area4">
+            <h2>Location 4</h2>
+            <div class="line">
+                <h3>Status: </h3>
+                <h3 class="value" id="stt4"></h3>
+            </div>
+            <div class="line">
+                <h3>Last modified: </h3>
+                <h3 class="date" id="date4"></h3>
+            </div>
+        </div>
+    </div>
+        
+    <div class="footer">
+        <div class="icon">
+            <a href="#" class="circle"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="circle"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="circle"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="circle"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerTitle">
+            <a href="#">Contact Us</a>
+            <a href="#">FAQs</a>
+            <a href="#">Careers</a>
+            <a href="#">Modern Slavery Act</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies Policy</a>
+            <a href="#">Term & Conditions</a>
+        </div>
+        <p>© 2022 FireForestAlarm. All rights reserved. No part of this site may be reproduced without our written permission.</p>
+    </div>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!--Remember to add this ...database line in your code unless it will not work -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
