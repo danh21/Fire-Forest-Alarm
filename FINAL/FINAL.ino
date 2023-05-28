@@ -18,7 +18,6 @@ SoftwareSerial SIM800(rxPin, txPin);
 
 
 
-// peripherals
 #define redLed    11
 #define yellowLed 12
 #define greenLed  13
@@ -26,7 +25,7 @@ SoftwareSerial SIM800(rxPin, txPin);
 
 
 
-// depend on your SIM
+// SIM
 const String APN  = "internet";
 const String USER = "";
 const String PASS = "";
@@ -34,8 +33,8 @@ const String PASS = "";
 
 
 // Firebase
-const String FIREBASE_HOST  = "yourLinkFirebase";
-const String FIREBASE_SECRET  = "yourAuthTokenOfFirebase";
+const String FIREBASE_HOST  = "https://prj2-forestfirealarm-default-rtdb.asia-southeast1.firebasedatabase.app/";
+const String FIREBASE_SECRET  = "Sc7DhL8xEwy3xeG1nvCa1WLa0i0pFIN3KNr9K9Uz";
 const String FIREBASE_PATH  = "/Location 1";
 
 
