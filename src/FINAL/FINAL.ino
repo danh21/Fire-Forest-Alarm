@@ -33,8 +33,8 @@ const String PASS = "";
 
 
 // Firebase
-const String FIREBASE_HOST  = "https://prj2-forestfirealarm-default-rtdb.asia-southeast1.firebasedatabase.app/";
-const String FIREBASE_SECRET  = "Sc7DhL8xEwy3xeG1nvCa1WLa0i0pFIN3KNr9K9Uz";
+const String FIREBASE_HOST  = "your-firebase-project.firebaseio.com";
+const String FIREBASE_SECRET  = "your-firebase-database-secret";
 const String FIREBASE_PATH  = "/Location 1";
 
 
