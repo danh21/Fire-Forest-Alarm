@@ -76,6 +76,9 @@
 <br>[Connection]
 - More detail at [Principle Diagram](img/Principle%20Diagram.PDF)
 
+<br>**[System]**<br>
+<img src="img/System.jpg" width="50%">
+
 <br>**[Firebase setup]**<br>
 <img src="img/Firebase Interface.png" width="50%">
 
